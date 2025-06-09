@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SSS Enterprises</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                    <small class="fw-bold text-white">Gudiyatham,Vellore District, TN, India</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <small class="far fa-clock text-primary me-2"></small>
+                    <small class="fw-bold text-white">Mon - Fri : 09.00 AM - 09.00 PM</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small class="fw-bold text-white">+91 9894104999</small>
+                </div>
+                <!-- <div class="h-100 d-inline-flex align-items-center mx-n2">
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square btn-link rounded-0" href=""><i class="fab fa-instagram"></i></a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 shadow-sm">
+  <div class="container-fluid px-2">
+    <!-- Logo + Brand -->
+    <a href="index.html" class="navbar-brand d-flex align-items-center">
+      <div class="logopng d-flex align-items-center">
+        <img
+          src="img/sss logo/sss logo removed bg.png"
+          alt="Logo"
+          class="logo-img img-fluid"
+        />
+        <span class="ms-2 text-primary enterprise-name">
+          <span class="brand-line-1">Sree SivaSakthi</span>
+          <span class="brand-line-2">Enterprises</span>
+        </span>
+      </div>
+    </a>
+
+    <!-- Navbar Toggler -->
+    <button
+      class="navbar-toggler me-2"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarCollapse"
+      aria-controls="navbarCollapse"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon custom-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Menu -->
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="navbar-nav ms-auto p-3 p-lg-0 text-center">
+        <a href="index.html" class="nav-item nav-link">Home</a>
+        <a href="about.html" class="nav-item nav-link">About</a>
+        <a href="service.html" class="nav-item nav-link">Products</a>
+        <a href="project.html" class="nav-item nav-link">Project</a>
+        <div class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Size</a>
+          <div class="dropdown-menu bg-light m-0">
+            <a href="feature.html" class="dropdown-item">Details</a>
+          </div>
+        </div>
+        <a href="contact.html" class="nav-item nav-link">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- Navbar End -->
+
+<!-- CSS for Responsive Support -->
+<style>
+/* Logo */
+.logo-img {
+  /* max-height: 35px; */
+  height: 100%;
+  width: 100%;
+}
+
+/* Brand text */
+.enterprise-name {
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Default inline display */
+.enterprise-name .brand-line-1,
+.enterprise-name .brand-line-2 {
+  display: inline;
+}
+
+/* Custom toggler icon */
+@media (max-width: 576px) {
+  .custom-toggler-icon {
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .enterprise-name {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    
+    font-size: 40px;
+    font-weight: 700;
+    color: #1a1a1a;
+  }
+
+  .enterprise-name .brand-line-1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.8;
+  }
+
+  .enterprise-name .brand-line-2 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+}
+
+
+
+/* Specific range: 300px to 407px screen width */
+@media (max-width: 407px) and (min-width: 300px) {
+  .logo-img {
+    /* max-height: 28px; */
+     height: 100%;
+    width: 100%;
+  }
+
+  .enterprise-name {
+    font-size: 13px;
+    line-height: 1.1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+.enterprise-name .brand-line-1 {
+  font-size: 20px;
+  font-weight: 200;
+   margin-top: 6px;
+    /* Add space below */
+  letter-spacing: 0.5px;    /* Slightly increase letter spacing */
+}
+
+.enterprise-name .brand-line-2 {
+  font-size: 20px;
+  font-weight: 200;
+     /* Add space below */
+  letter-spacing: 0.4px;    /* Slightly increase letter spacing */
+}
+
+
+  .navbar-brand {
+    flex-grow: 1;
+    overflow: hidden;
+  }
+
+  .navbar-toggler {
+    margin-left: auto;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 15px;
+    padding: 6px 0;
+  }
+}
+
+/* Ultra small screens below 300px */
+@media (max-width: 299px) {
+  .enterprise-name {
+    font-size: 12px;
+  }
+
+  .logo-img {
+    /* max-height: 25px; */
+    height: 100%;
+    width: 100%;
+  }
+}
+</style>
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 mb-5">
+        <div class="container py-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Services</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Services</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="text-primary text-capitalize h3">Our Services</h6>
+                <h1 class="mb-4"> We Provide Best Packaging Solutions</h1>
+            </div>
+
+
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quas cupiditate, commodi eum delectus modi perspiciatis vitae architecto, animi cumque earum repellendus ipsum sint expedita illum natus assumenda aliquam qui minima adipisci alias dicta. Perspiciatis sit aspernatur magnam omnis qui aperiam explicabo natus repellat accusantium corrupti ipsa eius architecto odio, nostrum a recusandae minima accusamus nobis exercitationem odit cupiditate! Libero minima recusandae a iste illum vero voluptatum beatae quis alias, expedita ipsa dignissimos esse incidunt in at provident eius obcaecati facere architecto dolores possimus cumque. Sit qui dolorum iure autem dicta odit ratione facere quam! Ducimus minima cumque, quaerat dolores veritatis cum ipsa nihil, mollitia voluptatum illo impedit molestiae. Fugit quasi molestiae quod cupiditate numquam omnis hic non doloremque ipsum, mollitia vitae possimus dolorum ratione eum eius ipsam sapiente beatae accusamus nobis voluptate amet! Expedita dolores dolor eligendi molestias eaque architecto beatae deleniti optio corporis repellat quisquam totam animi, laboriosam odit facilis laborum veritatis molestiae earum quod ex nobis nisi nostrum? Deleniti at nobis tempora ratione. Deserunt obcaecati voluptas facere voluptatem, dolorum soluta expedita ut asperiores reiciendis ratione quam explicabo amet inventore voluptate enim error at dolore iure unde cumque nobis ad doloremque? Minus repellat, voluptatibus eaque vitae et ipsam.</p>
